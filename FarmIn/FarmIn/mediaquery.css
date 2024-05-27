@@ -1,0 +1,195 @@
+@media screen and (max-width: 1200px) {
+    /* Weather */
+    .weather-con {
+        width: 350px;
+        height: 170px;
+        font-size: 0.8rem;
+    }
+    .city {
+        font-size: 1rem;
+    }
+    .weather-icon {
+        width: 50px;
+    }
+    .weather-temp {
+        font-size: 1rem;
+    } 
+    .day-status {
+        width: 50%;
+        height: 100%;
+        padding-bottom: 0px;
+    }
+    .farmin-shortbox-container {
+        height: 400px;
+        font-size: 0.8rem;
+        overflow-y: auto;
+    }
+    .developer-container {
+        font-size: 0.8rem;
+    }
+    .feedback-container {
+        width: 30%;
+    }
+    .main-content {
+        width: 50%;
+        padding-bottom: 0px;
+    }
+    .feedback-sendbtn {
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width: 900px) {
+    .weather-con {
+        width: 350px;
+        height: 250px;
+        font-size: 0.8rem;
+    }
+    .city {
+        font-size: 1.2rem;
+    }
+    .weather-icon {
+        width: 80px;
+    }
+    .weather-temp {
+        font-size: 2rem;
+    }
+    .farmin-shortbox-container {
+        height: 250px;
+    }
+    .datetime {
+        display: none;
+    }
+    .home-content {
+        height: 1000px;
+        margin-left: 160px;
+        flex-direction: column-reverse;
+        overflow-y: auto;
+    }
+    .main-content {
+        height: 60%;
+    }
+    .input-email {
+        height: 50%;
+    }
+    .input-email div button {
+        height: 40px;
+    }
+    .feedback-container {
+        width: 45%;
+    }
+    .typography {
+        margin-left: 160px;
+    }
+    .main-content {
+        width: 100%;
+    }
+    .day-status {
+        justify-content: center;
+        width: 100%;
+        height: 50%;
+        padding: 0;
+    }
+    .side-panel {
+        width: 160px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .home-content {
+        height: 900px;
+        margin-left: 70px;
+        padding: 12px;
+    }
+    .main-content {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 12px;
+    }
+    .typography {
+        margin-left: 70px;
+        padding: 12px;
+    }
+    .feedback-container {
+        width: 75%;
+    }
+    .side-panel {
+        width: 70px;
+    }
+    .menu-box {
+        display: flex;
+    }
+    .logo-details {
+        display: none;
+    }
+    .buttons button{
+        display: flex;
+        justify-content: center;
+    }
+    .buttons button i{
+        display: flex;
+        justify-content: center;
+        font-size: 1.3rem;
+    }
+    .buttons button p {
+        opacity: 0; 
+    }
+    .farmin-shortbox-container {
+        font-size: 0.6rem;
+    }
+    .input-email input{
+        font-size: 0.8rem;
+    }
+    .input-email textarea {
+        font-size: 0.8rem;
+    }
+    .feedback-sendbtn {
+        font-size: 0.7rem;
+    }
+    .table {
+        font-size: 0.6rem;
+    }
+    .qr-description img {
+        width: 35px;
+        height: 35px;
+    }
+    .qr {
+        width: 150px;
+    }
+    .qr-info p {
+        margin: 0px;
+    }
+    .qr-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .main-content {
+        height: 700px;
+    }
+    .logo {
+        justify-content: center;
+    }
+    .developer-container {
+        height: 300px;
+    }
+    .table tbody td{
+        height: 40px;
+        padding: 15px 10px;
+    }
+    .weather-icon {
+        width: 60px;
+    }
+    .qr-description img {
+        width: 30px;
+        height: 30px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .table {
+        font-size: 0.5rem;
+    }
+}
+@media screen and (max-width: 350px) {
+    .table {
+        font-size: 0.4rem;
+    }
+}
